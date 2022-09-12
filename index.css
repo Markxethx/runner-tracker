@@ -83,3 +83,47 @@ ul li {
     padding: 0 1rem;
 }
 
+.progress {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.progress h3 {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.progressCircleWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#progressCircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#progressCenter{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #2d3740 50%;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 60%;
+    }
+
+    input[type="number"] {
+        width: 40%;
+    }
+
+    svg {
+        max-width: 50%;
+    }
+}
